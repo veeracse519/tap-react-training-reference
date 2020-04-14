@@ -1,9 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-
 import HomePage from "./components/HomePage";
 import Page1 from "./components/Page1";
-
+import StudentPage from "./components/StudentList/Student"
 import "./App.css";
 
 const App = () => {
@@ -12,6 +11,9 @@ const App = () => {
       <Switch>
         <Route exact path="/page-1">
           <Page1 />
+        </Route> 
+        <Route  exact path="/student-page">
+          <StudentPage/>
         </Route>
         <Route path="/">
           <HomePage />
