@@ -11,13 +11,13 @@ this.studentList=[]
 @action
 addStudent(name:string,gender?:string){
 const studentObject:studentObjectType={
-    name:name,
+  name:name,
     gender:gender,
     id:Math.random.toString()
 }
-const studentModel:StudentModel=new StudentModel(studentObject)
+const studentModel=new StudentModel(studentObject)
 this.studentList.push(studentModel)
-console.log(this.studentList)
+//console.log(this.studentList)
 }
 }
 const studentStore=new StudentStore()

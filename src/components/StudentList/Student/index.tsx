@@ -1,6 +1,6 @@
 import React from "react"
 import {observer} from "mobx-react"
-import { observable } from "mobx"
+//import { observable } from "mobx"
 import StudentsPage from "../SudentAdd"
 import {studentStore} from "../../../stores/StdentsStore"
 import StudentComponent from "../StudentsList"

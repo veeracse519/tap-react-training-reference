@@ -20,6 +20,7 @@ function App() {
         </a>
         <Link to="/page-1">Page 1</Link>
         <Link to="/student-page">Students Enrollment</Link>
+        <Link to="/grid-game">Grid Game</Link>
       </header>
     </div>
   );

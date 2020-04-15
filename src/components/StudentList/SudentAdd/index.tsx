@@ -1,8 +1,8 @@
 import React from "react"
 import {observer} from "mobx-react"
 import { observable } from "mobx"
-import {studentStore,StudentStore} from "../../../stores/StdentsStore"
-import StudentModel from "../../../stores/StudentsModel"
+//import {studentStore,StudentStore} from "../../../stores/StdentsStore"
+//import StudentModel from "../../../stores/StudentsModel"
 type addStudentProps={
     onStudentAdd:(name:string,gender?:string)=>void
     //studentStore:StudentModel
